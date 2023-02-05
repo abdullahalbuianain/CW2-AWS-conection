@@ -109,6 +109,11 @@ app.use(function(req, res, next) {
 });
 
 
-app.listen(2500, function() {
-    console.log("App started on port 2500");
+// app.listen(2500, function() {
+//     console.log("App started on port 2500");
+// });
+
+const port = process.env.PORT || 2500;
+app.listen(port, function() {
+  console.log("App started on port:" + post)
 });
