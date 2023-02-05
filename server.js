@@ -115,5 +115,5 @@ app.use(function(req, res, next) {
 
 const port = process.env.PORT || 2500;
 app.listen(port, function() {
-  console.log("App started on port:" + post)
+  console.log("App started on port:" + port)
 });
